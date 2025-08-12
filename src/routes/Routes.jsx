@@ -5,6 +5,7 @@ import RootLayout from '../Layout/RootLayout';
 import Projects from '../pages/Home/Projects/Projects';
 import About from '../pages/about/About';
 import Contact from '../pages/contact/Contact';
+import Skill from '../pages/skill/Skill';
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
             {
                 path: '/contact',
                 Component: Contact
+            },
+            {
+                path: '/skills',
+                Component: Skill
             }
         ]
     }
