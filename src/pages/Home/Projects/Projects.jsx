@@ -1,17 +1,15 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { useParams } from "react-router";
 
 const Projects = () => {
-
-    const { id } = useParams();
-    console.log(id);
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         fetch("projects.json")
             .then((res) => res.json())
             .then((data) => setProjects(data));
     }, []);
+
+    // console.log(projects);
 
     return (
         <div className="bg-[#405366]">

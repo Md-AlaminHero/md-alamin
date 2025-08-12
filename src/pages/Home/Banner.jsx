@@ -33,7 +33,7 @@ const Banner = () => {
                         <Link to={"/contact"}>
                             <button
                                 type="button"
-                                className="px-4 py-2 rounded text-white  mr-3 bg-blue-500 hover:bg-blue-700"
+                                className="px-4 py-2 rounded text-white  mr-3 bg-blue-500 hover:bg-blue-700 cursor-pointer"
                             >
                                 Hire Me
                             </button>
@@ -45,7 +45,7 @@ const Banner = () => {
                         >
                             <button
                                 type="button"
-                                className="px-4 py-2 rounded text-white  bg-blue-500 hover:bg-blue-700"
+                                className="px-4 py-2 rounded text-white  bg-blue-500 hover:bg-blue-700 cursor-pointer"
                             >
                                 Download CV
                             </button>

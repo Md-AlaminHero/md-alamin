@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
                 <img src={image} alt="Shoes" />
             </figure>
             <div className="card-body text-white">
-                <h2 className="text-center text-xl text-yellow-500 font-semibold">{project_name}</h2>
+                <h2 className="text-center text-xl font-semibold">{project_name}</h2>
                 <p>{feature}</p>
                 <div className="flex flex-wrap gap-2">
                     {technology.map((item, index) => (

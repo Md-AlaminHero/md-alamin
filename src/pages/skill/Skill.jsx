@@ -75,30 +75,30 @@ const Skill = () => {
                 title: { text: "#fff", background: "#124e8c" },
             },
         },
-        {
-            type: "Redux",
-            level: 70,
-            color: {
-                bar: "#2c3e50",
-                title: { text: "#fff", background: "#2c3e50" },
-            },
-        },
-        {
-            type: "Next JS",
-            level: 65,
-            color: {
-                bar: "#5a68a5",
-                title: { text: "#fff", background: "#46465e" },
-            },
-        },
-        {
-            type: "TypeScript",
-            level: 60,
-            color: {
-                bar: "black",
-                title: { text: "#111", background: "#fff" },
-            },
-        },
+        // {
+        //     type: "Redux",
+        //     level: 70,
+        //     color: {
+        //         bar: "#2c3e50",
+        //         title: { text: "#fff", background: "#2c3e50" },
+        //     },
+        // },
+        // {
+        //     type: "Next JS",
+        //     level: 65,
+        //     color: {
+        //         bar: "#5a68a5",
+        //         title: { text: "#fff", background: "#46465e" },
+        //     },
+        // },
+        // {
+        //     type: "TypeScript",
+        //     level: 60,
+        //     color: {
+        //         bar: "black",
+        //         title: { text: "#111", background: "#fff" },
+        //     },
+        // },
     ];
     return (
         <div className="bg-[#405366]">

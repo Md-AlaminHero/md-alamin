@@ -1,15 +1,15 @@
 import React from 'react';
 import Banner from './Banner';
-import ProjectsName from './Projects/ProjectsName';
 import About from '../about/About';
 import Skill from '../skill/Skill';
 import Contact from '../contact/Contact';
+import Projects from './Projects/Projects';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <ProjectsName></ProjectsName>
+            <Projects></Projects>
             <About></About>
             <Skill></Skill>
             <Contact></Contact>

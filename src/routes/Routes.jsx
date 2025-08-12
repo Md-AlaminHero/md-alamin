@@ -2,10 +2,11 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router';
 import Home from '../pages/Home/Home';
 import RootLayout from '../Layout/RootLayout';
-import Projects from '../pages/Home/Projects/Projects';
 import About from '../pages/about/About';
 import Contact from '../pages/contact/Contact';
 import Skill from '../pages/skill/Skill';
+import ErrorPage from '../pages/errorPage/ErrorPage';
+import Projects from '../pages/Home/Projects/Projects';
 
 export const router = createBrowserRouter([
     {
@@ -17,8 +18,8 @@ export const router = createBrowserRouter([
                 Component: Home
             },
             {
-                path: '/project/:id',
-                Component: Projects,
+                path: '/projects',
+                Component: Projects
             },
             {
                 path: '/about',
@@ -33,5 +34,9 @@ export const router = createBrowserRouter([
                 Component: Skill
             }
         ]
+    },
+    {
+        path: '*',
+        Component: ErrorPage
     }
 ])
