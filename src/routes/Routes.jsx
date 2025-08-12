@@ -7,6 +7,7 @@ import Contact from '../pages/contact/Contact';
 import Skill from '../pages/skill/Skill';
 import ErrorPage from '../pages/errorPage/ErrorPage';
 import Projects from '../pages/Home/Projects/Projects';
+import Education from '../pages/education/Education';
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
             {
                 path: '/projects',
                 Component: Projects
+            },
+            {
+                path: '/education',
+                Component: Education
             },
             {
                 path: '/about',

@@ -10,7 +10,7 @@ const About = () => {
                 <div className="md:w-[60%]">
                     <h3 className="text-4xl text-yellow-600 font-bold mb-8 py-4">About Me</h3>
                     <p className="text-white text-lg pb-3">
-                        <span className="font-bold text-2xl">Name & Background:</span> Md Al Amin, Physics graduate from the University of Dhaka and MERN stack learner.
+                        <span className="font-bold text-2xl">Name & Background:</span> Md Al Amin, Full-Stack Developer. MERN stack learner from Programming Hero Batch-11.
                         <br/>
                         <span className="font-bold text-2xl">Programming Journey:</span> Started with curiosity about how websites work, leading to building interactive, user-friendly web applications.
                         <br/>
