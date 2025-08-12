@@ -1,0 +1,33 @@
+[
+    {
+      "project_id": "1",
+      "image": "https://i.postimg.cc/L6Sbng2R/dragon-news.png",
+      "project_name": "Dragon-News",
+      "feature": "This news website is built using JavaScript, HTML, and Tailwind CSS to create a fast, responsive, and visually appealing user interface. User authentication is securely managed with Firebase Authentication, enabling smooth sign-in and personalized experiences.",
+      "live_site": "https://ragon-news-breaking.web.app/",
+      "github_client": "https://github.com/Md-AlaminHero/drageon-news-firebase",
+      "github_server": "",
+      "technology":["React", "react-router", "Tailwind CSS", "Javascript", "HTML"]
+    },
+    {
+      "project_id": "2",
+      "image": "https://i.postimg.cc/fLk2X1bh/Foodi.png",
+      "project_name": "Foodi",
+      "feature": "This is a full-stack project. It is a food services website. Here users can add foods for sale and see the food list and details.This website has user authentication, a private route",
+      "live_site": "https://career-code-ab381.web.app",
+      "github_client": "https://github.com/Md-AlaminHero/food-service-client-side",
+      "github_server": "",
+      "technology":["React", "Firebase", "Tailwind CSS", "NodeJs", "Express JS", "MongoDB"]
+    },
+    {
+      "project_id": "3",
+      "image": "https://i.postimg.cc/1RJdT5DK/Screenshot-1.png",
+      "project_name": "English Janala",
+      "feature": "This is a full-stack project.An interactive platform to improve English vocabulary by learning new words, their synonyms, antonyms, and correct pronunciation through engaging activities and quizzes.",
+      "live_site": "https://test-english-janala-6.netlify.app/",
+      "github_client": "",
+      "github_server": "",
+      "technology":["React", "Tailwind CSS", "Javascript", "Firebase"]
+    }
+  ]
+  
