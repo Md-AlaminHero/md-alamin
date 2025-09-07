@@ -12,7 +12,7 @@ const Projects = () => {
     // console.log(projects);
 
     return (
-        <div className="bg-[#405366]">
+        <div className="">
             <div className="container mx-auto ">
                 <h2 className="text-4xl text-yellow-600 font-bold text-center py-12">
                     My Projects

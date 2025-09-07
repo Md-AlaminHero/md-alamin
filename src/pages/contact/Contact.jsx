@@ -27,7 +27,7 @@ const Contact = () => {
             );
     };
     return (
-        <div className="bg-[#405366]">
+        <div className="">
             <div className="container mx-auto px-10 py-14">
                 <h3 className="text-4xl text-yellow-600 font-bold text-center ">
                     Contact Me

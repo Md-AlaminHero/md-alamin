@@ -2,7 +2,7 @@ import img from "../../assets/Alamin.png";
 
 const About = () => {
     return (
-        <div className="bg-[#20303F] ">
+        <div className="bg-[#20303F50] ">
             <div className="container mx-auto text-white md:flex gap-5 items-center px-10">
                 <div className="md:w-[40%] z-10">
                     <img src={img} alt="" className="" />

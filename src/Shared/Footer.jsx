@@ -3,7 +3,7 @@ import SocialIcon from "./SocialIcon";
 
 const Footer = () => {
     return (
-        <div className="bg-[#343A40] text-white">
+        <div className="bg-[#343A4030] text-white">
             <div className="container mx-auto md:flex justify-between px-14 py-8">
                 <div>
                     <span className="text-3xl text-yellow-600 font-bold">

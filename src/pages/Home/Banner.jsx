@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import img from "../../assets/Alamin.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import SocialIcon from "../../Shared/SocialIcon";
-import ParticleBg from "../../Components/ParticleBg";
+// import ParticleBg from "../../Components/ParticleBg";
 
 const Banner = () => {
     const [text] = useTypewriter({
@@ -19,7 +19,7 @@ const Banner = () => {
     });
     return (
         <div className="">
-            <ParticleBg />
+            {/* <ParticleBg /> */}
             <div className="container mx-auto md:flex justify-between items-center px-16">
                 <div>
                     <p className="text-3xl lg:text-5xl font-bold text-yellow-600 pt-5">

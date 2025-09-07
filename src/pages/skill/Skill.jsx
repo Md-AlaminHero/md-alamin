@@ -101,7 +101,7 @@ const Skill = () => {
         // },
     ];
     return (
-        <div className="bg-[#405366]">
+        <div className="">
             <div className="container mx-auto px-16 py-10">
                 <h3 className="text-4xl text-yellow-600 font-bold text-center mb-8 ">
                     My Skills
